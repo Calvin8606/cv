@@ -4,6 +4,7 @@ body {
     padding: 0;
     font-family: 'Times New Roman';
     background-color: rgb(229, 224, 224);
+
 }
 
 nav {
@@ -60,4 +61,95 @@ footer a {
 
 footer a:hover {
     background: rgb(226, 226, 226);
+}
+
+.intro {
+    background: antiquewhite;
+    display: grid;
+    place-items: center;
+    height: 700px;
+    width: auto;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.intro h1 {
+    margin: 0;
+    font-style: italic;
+    font-size: xx-large;
+    padding: 0;
+    margin: 0;
+
+}
+.intro h2 {
+    font-family: sans-serif;
+    padding: 0;
+}
+
+.info a {
+    text-decoration: none;
+    color: blue;
+}
+
+.info a:hover {
+    color:rgb(190, 183, 183) ;
+}
+
+.info dt {
+    font-family: sans-serif;
+}
+
+.info li {
+    font-family: sans-serif;
+    list-style: none;
+}
+
+.intro img {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-section .card {
+    flex: 1;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgb(0,0,0,0.2);
+}
+
+.content-section .card img {
+    width: 100%;
+    height: auto;
+}
+
+.content-section .card h3 {
+    margin: 15px 0px;
+    font-size: 28px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.content {
+    box-shadow: 0px 2px 8px 0px rgb(0,0,0,0.2);
+}
+
+
+.one-col {
+    display: grid;
+    grid-template-columns: 2fr;
 }
